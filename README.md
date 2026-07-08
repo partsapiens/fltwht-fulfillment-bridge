@@ -8,6 +8,11 @@ Bridge unsupported sales channels into CustomCat fulfillment:
 - eBay orders -> CustomCat
 - FLTWHT.com static-site + Stripe orders -> CustomCat
 
+## Current status
+
+This repo now has a usable internal order model and a CSV fallback path.
+That means you can normalize orders from unsupported channels even before the full CustomCat API path is wired.
+
 ## Planned flow
 
 1. Stripe webhook receives paid checkout events from FLTWHT.com.
@@ -17,10 +22,41 @@ Bridge unsupported sales channels into CustomCat fulfillment:
 5. CustomCat adapter sends orders via API when available.
 6. CSV export fallback generates import-ready files when API is unavailable.
 
+## Endpoints
+
+- `GET /health`
+- `POST /webhooks/stripe`
+- `POST /jobs/ebay-sync`
+- `POST /admin/export-customcat-csv`
+
 ## Environment variables
 
 See `.env.example`.
 
-## Status
+## CSV fallback
 
-Initial scaffold only.
+`POST /admin/export-customcat-csv` accepts JSON like:
+
+```json
+{
+  "orders": [
+    {
+      "source": "ebay",
+      "orderId": "12345",
+      "customer": { "email": "buyer@example.com", "name": "Buyer Name" },
+      "shippingAddress": {
+        "line1": "123 Main St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90001",
+        "country": "US"
+      },
+      "items": [
+        { "sku": "FLT-E30-STD-TEE-BLK-M", "title": "E30 Tee", "quantity": 1 }
+      ]
+    }
+  ]
+}
+```
+
+The route returns CSV with CustomCat mapping columns, including empty mapped SKU cells where catalog mapping still needs to be filled.

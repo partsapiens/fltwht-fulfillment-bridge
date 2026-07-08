@@ -2,14 +2,19 @@ import http from 'node:http';
 import { handleStripeWebhook } from './routes/webhooks/stripe.js';
 import { runEbaySync } from './routes/jobs/ebay-sync.js';
 import { exportCustomCatCsv } from './routes/admin/export-customcat-csv.js';
+import { getConfig, getIntegrationStatus } from './lib/config.js';
+import { sendJson } from './lib/http.js';
 
-const port = Number(process.env.PORT || 8787);
+const config = getConfig();
 
 const server = http.createServer(async (req, res) => {
   try {
     if (req.method === 'GET' && req.url === '/health') {
-      res.writeHead(200, { 'content-type': 'application/json' });
-      res.end(JSON.stringify({ ok: true, service: 'fltwht-fulfillment-bridge' }));
+      sendJson(res, 200, {
+        ok: true,
+        service: 'fltwht-fulfillment-bridge',
+        integrations: getIntegrationStatus(),
+      });
       return;
     }
 
@@ -28,14 +33,12 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    res.writeHead(404, { 'content-type': 'application/json' });
-    res.end(JSON.stringify({ error: 'not_found' }));
+    sendJson(res, 404, { error: 'not_found' });
   } catch (error) {
-    res.writeHead(500, { 'content-type': 'application/json' });
-    res.end(JSON.stringify({ error: 'internal_error', message: String(error?.message || error) }));
+    sendJson(res, 500, { error: 'internal_error', message: String(error?.message || error) });
   }
 });
 
-server.listen(port, () => {
-  console.log(`FLTWHT Fulfillment Bridge listening on :${port}`);
+server.listen(config.port, () => {
+  console.log(`FLTWHT Fulfillment Bridge listening on :${config.port}`);
 });

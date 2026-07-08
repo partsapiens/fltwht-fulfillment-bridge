@@ -1,6 +1,7 @@
 import { fetchEbayOrders } from '../../adapters/ebay.js';
 import { normalizeOrder } from '../../lib/order-normalizer.js';
 import { submitOrderToCustomCat } from '../../adapters/customcat.js';
+import { sendJson } from '../../lib/http.js';
 
 export async function runEbaySync(_req, res) {
   const rawOrders = await fetchEbayOrders();
@@ -9,6 +10,5 @@ export async function runEbaySync(_req, res) {
     const normalized = normalizeOrder({ source: 'ebay', raw });
     results.push(await submitOrderToCustomCat(normalized));
   }
-  res.writeHead(200, { 'content-type': 'application/json' });
-  res.end(JSON.stringify({ synced: rawOrders.length, results }));
+  sendJson(res, 200, { synced: rawOrders.length, results });
 }

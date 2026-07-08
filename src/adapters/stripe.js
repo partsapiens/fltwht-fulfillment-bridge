@@ -1,6 +1,5 @@
+import { readJson } from '../lib/http.js';
+
 export async function parseStripeWebhook(req) {
-  const chunks = [];
-  for await (const chunk of req) chunks.push(chunk);
-  const body = Buffer.concat(chunks).toString('utf8');
-  return body ? JSON.parse(body) : {};
+  return readJson(req, {});
 }
