@@ -1,7 +1,94 @@
 {
-  "FLT-E30-STD-TEE-BLK-M": {
-    "provider": "customcat",
-    "catalogSku": "REPLACE_ME",
-    "productType": "tee"
-  }
+  "FLT-NSR-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Neon Street Racer Tee", "shippingMethod": "Economy" },
+  "FLT-UGG-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Umbrella Glow Girl Tee", "shippingMethod": "Economy" },
+  "FLT-TBL-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Turbo Legend Tee", "shippingMethod": "Economy" },
+  "FLT-DKG-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Drift King Tee", "shippingMethod": "Economy" },
+  "FLT-STB-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Street Beast Tee", "shippingMethod": "Economy" },
+  "FLT-MRD-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Midnight Roadster Tee", "shippingMethod": "Economy" },
+  "FLT-BJL-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Black JDM Legend Tee", "shippingMethod": "Economy" },
+  "FLT-STL-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Street Legend Tee", "shippingMethod": "Economy" },
+  "FLT-NVC-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Neon Voltage Coupe Tee", "shippingMethod": "Economy" },
+  "FLT-NON-STD-CROP-HOODIE": { "provider": "customcat", "productId": "TBD", "productName": "Neon Osaka Nightrunner Crop Hoodie", "shippingMethod": "Economy" },
+  "FLT-NON-STD-WOMENS-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Neon Osaka Nightrunner Women's Relaxed Tee", "shippingMethod": "Economy" },
+  "FLT-RRB-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Retro Roundback Tee", "shippingMethod": "Economy" },
+  "FLT-RCP-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Retro Coupe Tee", "shippingMethod": "Economy" },
+  "FLT-W123-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "W123 Heritage Eco Tee", "shippingMethod": "Economy" },
+  "FLT-MSS-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Midnight Sport Saloon Tee", "shippingMethod": "Economy" },
+  "FLT-AMU-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "American Muscle Tee", "shippingMethod": "Economy" },
+  "FLT-N4X-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Night Offroad 4x4 Tee", "shippingMethod": "Economy" },
+  "FLT-E30-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "E30 Heritage Tee", "shippingMethod": "Economy" },
+  "FLT-E30-STD-HOODIE": { "provider": "customcat", "productId": "TBD", "productName": "E30 Heritage Hoodie", "shippingMethod": "Economy" },
+  "FLT-E46M-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "E46 Motorsport Heritage Tee", "shippingMethod": "Economy" },
+  "FLT-E46M-STD-HOODIE": { "provider": "customcat", "productId": "TBD", "productName": "E46 Motorsport Heritage Hoodie", "shippingMethod": "Economy" },
+  "FLT-AIRC-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Air-Cooled Heritage Tee", "shippingMethod": "Economy" },
+  "FLT-AIRC-STD-HOODIE": { "provider": "customcat", "productId": "TBD", "productName": "Air-Cooled Heritage Hoodie", "shippingMethod": "Economy" },
+  "FLT-MK2-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "Mk2 Heritage Tee", "shippingMethod": "Economy" },
+  "FLT-MK2-STD-HOODIE": { "provider": "customcat", "productId": "TBD", "productName": "Mk2 Heritage Hoodie", "shippingMethod": "Economy" },
+  "FLT-GTV-STD-TEE": { "provider": "customcat", "productId": "TBD", "productName": "GTV Heritage Tee", "shippingMethod": "Economy" },
+  "FLT-GTV-STD-HOODIE": { "provider": "customcat", "productId": "TBD", "productName": "GTV Heritage Hoodie", "shippingMethod": "Economy" }
 }
+cat > README.md <<'EOF'
+# FLTWHT Fulfillment Bridge
+
+Middleware to route FLTWHT orders from eBay and the static site into CustomCat fulfillment.
+
+## Goal
+
+Bridge unsupported sales channels into CustomCat fulfillment:
+- eBay orders -> CustomCat
+- FLTWHT.com static-site + Stripe orders -> CustomCat
+
+## Current status
+
+This repo has:
+- real Stripe signature verification code
+- checkout.session -> internal order transformation
+- CustomCat CSV export in CustomCat's documented manual-upload column format
+- eBay auth/order-fetch stub with exact operator credential requirements
+- dry-run CustomCat submission path
+
+## Endpoints
+
+- `GET /health`
+- `POST /webhooks/stripe`
+- `POST /jobs/ebay-sync`
+- `POST /admin/export-customcat-csv`
+
+## CustomCat CSV format
+
+The CSV export now uses CustomCat's documented headers:
+- `OrderId`
+- `LineItemId`
+- `Quantity`
+- `SKU`
+- `ProductId`
+- `ProductName`
+- `Color`
+- `Size`
+- `DesignPosition`
+- `ShipToFirstName`
+- `ShipToLastName`
+- `ShipToAddress`
+- `ShipToAddress2`
+- `ShipToCity`
+- `ShipToZip`
+- `ShipToState`
+- `ShipToCountry`
+- `ShipToPhone`
+- `ShippingMethod`
+- `CustomerEmail`
+
+## Tests
+
+- `test/stripe-webhook.test.js`
+- sample Stripe event payload in `samples/stripe-checkout-session-completed.json`
+
+## Important blockers
+
+- This environment currently has no working `node` binary in shell, so CLI test execution is blocked here.
+- CustomCat product/variant IDs are still `TBD` until catalog-specific IDs are gathered from CustomCat.
+- eBay requires operator credentials:
+  - `EBAY_CLIENT_ID`
+  - `EBAY_CLIENT_SECRET`
+  - `EBAY_REFRESH_TOKEN`
+- CustomCat API still needs account-side credential verification before real dry-run request wiring can be verified.

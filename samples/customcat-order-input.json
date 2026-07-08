@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "source": "ebay",
+      "orderId": "EBAY-1001",
+      "customer": { "email": "buyer@example.com", "name": "Buyer Example" },
+      "shippingAddress": {
+        "name": "Buyer Example",
+        "line1": "123 Main St",
+        "line2": "Apt 4",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90001",
+        "country": "US",
+        "phone": "+1-555-111-2222"
+      },
+      "items": [
+        { "sku": "FLT-NSR-STD-TEE", "title": "Neon Street Racer Tee", "quantity": 1 }
+      ]
+    }
+  ]
+}

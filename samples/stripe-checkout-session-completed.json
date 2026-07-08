@@ -1,0 +1,39 @@
+{
+  "id": "evt_test_123",
+  "type": "checkout.session.completed",
+  "data": {
+    "object": {
+      "id": "cs_test_a1b2c3",
+      "payment_intent": "pi_test_123",
+      "currency": "usd",
+      "customer_details": {
+        "email": "buyer@example.com",
+        "name": "Buyer Example",
+        "phone": "+1-555-111-2222",
+        "address": {
+          "line1": "123 Main St",
+          "line2": "Apt 4",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90001",
+          "country": "US"
+        }
+      },
+      "shipping_details": {
+        "name": "Buyer Example",
+        "address": {
+          "line1": "123 Main St",
+          "line2": "Apt 4",
+          "city": "Los Angeles",
+          "state": "CA",
+          "postal_code": "90001",
+          "country": "US"
+        }
+      },
+      "metadata": {
+        "notes": "test order",
+        "items": "[{\"sku\":\"FLT-NSR-STD-TEE\",\"title\":\"Neon Street Racer Tee\",\"quantity\":1,\"size\":\"L\",\"color\":\"Black\"},{\"sku\":\"FLT-TBL-STD-TEE\",\"title\":\"Turbo Legend Tee\",\"quantity\":2,\"size\":\"M\",\"color\":\"Black\"}]"
+      }
+    }
+  }
+}
