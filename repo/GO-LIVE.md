@@ -3,6 +3,17 @@
 This repo is intentionally paused at the preparation stage.
 Do not wire live routing until the operator provides the required credentials and product identifiers below.
 
+## Handoff index
+
+Runbooks:
+- `runbooks/etsy-apliiq-connect.md`
+- `runbooks/customcat-standard-productid.md`
+- `runbooks/ebay-apparel.md`
+
+Prepared listing specs:
+- `repo/listings/ebay-border-run.md`
+- `repo/listings/etsy-border-run.md`
+
 ## Launch path
 
 Default launch path:

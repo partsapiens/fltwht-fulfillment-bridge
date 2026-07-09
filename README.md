@@ -22,6 +22,17 @@ That means you can normalize orders from unsupported channels even before the fu
 5. CustomCat adapter sends orders via API when available.
 6. CSV export fallback generates import-ready files when API is unavailable.
 
+## Handoff index
+
+Operational runbooks:
+- `runbooks/etsy-apliiq-connect.md`
+- `runbooks/customcat-standard-productid.md`
+- `runbooks/ebay-apparel.md`
+
+Channel-ready listing specs:
+- `repo/listings/ebay-border-run.md`
+- `repo/listings/etsy-border-run.md`
+
 ## Endpoints
 
 - `GET /health`
