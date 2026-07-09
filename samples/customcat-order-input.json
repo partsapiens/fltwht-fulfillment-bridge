@@ -15,7 +15,8 @@
         "phone": "+1-555-111-2222"
       },
       "items": [
-        { "sku": "FLT-NSR-STD-TEE", "title": "Neon Street Racer Tee", "quantity": 1 }
+        { "sku": "FW-BRR-TE-STD", "title": "BORDER RUN '89 — Tee (Standard)", "quantity": 1 },
+        { "sku": "FW-BRR-TE-SIG", "title": "BORDER RUN '89 — Tee (Signature)", "quantity": 1 }
       ]
     }
   ]

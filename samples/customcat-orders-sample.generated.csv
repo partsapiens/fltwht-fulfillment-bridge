@@ -1,2 +1,2 @@
 OrderId,LineItemId,Quantity,SKU,ProductId,ProductName,Color,Size,DesignPosition,ShipToFirstName,ShipToLastName,ShipToAddress,ShipToAddress2,ShipToCity,ShipToZip,ShipToState,ShipToCountry,ShipToPhone,ShippingMethod,CustomerEmail
-EBAY-1001,EBAY-1001-1,1,FLT-NSR-STD-TEE,,Neon Street Racer Tee,,,Front,Buyer,Example,123 Main St,Apt 4,Los Angeles,90001,CA,US,+1-555-111-2222,Economy,buyer@example.com
+EBAY-1001,EBAY-1001-1,1,FW-BRR-TE-STD,TBD,BORDER RUN '89 — Tee (Standard),,,Front,Buyer,Example,123 Main St,Apt 4,Los Angeles,90001,CA,US,+1-555-111-2222,Economy,buyer@example.com

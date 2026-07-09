@@ -12,8 +12,14 @@ export function loadSkuMap() {
   }
 }
 
-export function resolveCustomCatSku(lineItem, skuMap = loadSkuMap()) {
+export function resolveSkuMapping(lineItem, skuMap = loadSkuMap()) {
   const key = lineItem?.sku;
   if (!key) return null;
   return skuMap[key] || null;
+}
+
+export function resolveCustomCatSku(lineItem, skuMap = loadSkuMap()) {
+  const mapping = resolveSkuMapping(lineItem, skuMap);
+  if (!mapping || mapping.supplier !== 'customcat') return null;
+  return mapping;
 }
