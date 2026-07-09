@@ -1,28 +1,200 @@
 {
-  "generatedAt": "2026-07-09T03:16:13.538Z",
+  "generatedAt": "2026-07-09T03:34:01.715Z",
   "sourceFiles": [
     "/Users/airm3/Documents/Claude/Projects/websites/fltwht/_site/products.json"
   ],
-  "totalSourceSkus": 34,
-  "totalMappedSkus": 17,
-  "totalUnmappedSkus": 17,
-  "unmappedSkus": [
-    "FW-AMU-TE-SIG",
-    "FW-BJL-TE-SIG",
-    "FW-DKG-TE-SIG",
-    "FW-MRD-TE-SIG",
-    "FW-MSS-TE-SIG",
-    "FW-N4X-TE-SIG",
-    "FW-NON-CR-SIG",
-    "FW-NON-WO-SIG",
-    "FW-NSR-TE-SIG",
-    "FW-NVC-TE-SIG",
-    "FW-RCP-TE-SIG",
-    "FW-RRB-TE-SIG",
-    "FW-STB-TE-SIG",
-    "FW-STL-TE-SIG",
-    "FW-TBL-TE-SIG",
-    "FW-UGG-TE-SIG",
-    "FW-W123-TE-SIG"
+  "totalSourceSkus": 36,
+  "totalMappedEntries": 36,
+  "totalMissingMapEntries": 0,
+  "totalMissingRequiredSupplierIds": 35,
+  "supplierSummary": {
+    "customcat": {
+      "total": 18,
+      "mapped": 0,
+      "missingRequiredId": 18
+    },
+    "apliiq": {
+      "total": 18,
+      "mapped": 1,
+      "missingRequiredId": 17
+    }
+  },
+  "missingMapEntries": [],
+  "missingRequiredSupplierIds": [
+    {
+      "sku": "FW-NSR-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-NSR-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-UGG-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-UGG-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-TBL-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-TBL-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-DKG-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-DKG-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-STB-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-STB-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-MRD-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-MRD-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-BJL-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-BJL-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-STL-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-STL-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-NVC-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-NVC-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-NON-CR-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-NON-CR-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-NON-WO-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-NON-WO-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-RCP-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-RCP-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-AMU-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-AMU-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-RRB-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-RRB-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-N4X-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-N4X-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-MSS-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-MSS-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-W123-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    },
+    {
+      "sku": "FW-W123-TE-SIG",
+      "supplier": "apliiq",
+      "requiredField": "apliiqProductRef"
+    },
+    {
+      "sku": "FW-BRR-TE-STD",
+      "supplier": "customcat",
+      "requiredField": "productId"
+    }
   ]
 }
