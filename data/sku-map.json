@@ -2,237 +2,489 @@
   "FW-BRR-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "BORDER RUN '89 — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "BORDER RUN '89 \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-BRR-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "BORDER RUN '89 | Gildan 5000 | DTF",
-    "productName": "BORDER RUN '89 — Tee (Signature)",
+    "productName": "BORDER RUN '89 \u2014 Tee (Signature)",
     "blank": "Gildan 5000",
     "printMethod": "DTF"
   },
   "FW-NSR-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Neon Street Racer — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Neon Street Racer \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-NSR-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Neon Street Racer — Tee (Signature)"
+    "productName": "Neon Street Racer \u2014 Tee (Signature)"
   },
   "FW-UGG-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Umbrella Glow Girl — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Umbrella Glow Girl \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-UGG-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Umbrella Glow Girl — Tee (Signature)"
+    "productName": "Umbrella Glow Girl \u2014 Tee (Signature)"
   },
   "FW-TBL-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Turbo Legend — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Turbo Legend \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-TBL-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Turbo Legend — Tee (Signature)"
+    "productName": "Turbo Legend \u2014 Tee (Signature)"
   },
   "FW-DKG-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Drift King — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Drift King \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-DKG-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Drift King — Tee (Signature)"
+    "productName": "Drift King \u2014 Tee (Signature)"
   },
   "FW-STB-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Street Beast — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Street Beast \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-STB-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Street Beast — Tee (Signature)"
+    "productName": "Street Beast \u2014 Tee (Signature)"
   },
   "FW-MRD-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Midnight Roadster — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Midnight Roadster \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-MRD-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Midnight Roadster — Tee (Signature)"
+    "productName": "Midnight Roadster \u2014 Tee (Signature)"
   },
   "FW-BJL-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Black JDM Legend — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Black JDM Legend \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-BJL-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Black JDM Legend — Tee (Signature)"
+    "productName": "Black JDM Legend \u2014 Tee (Signature)"
   },
   "FW-STL-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Street Legend — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Street Legend \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-STL-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Street Legend — Tee (Signature)"
+    "productName": "Street Legend \u2014 Tee (Signature)"
   },
   "FW-NVC-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Neon Voltage Coupe — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Neon Voltage Coupe \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-NVC-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Neon Voltage Coupe — Tee (Signature)"
+    "productName": "Neon Voltage Coupe \u2014 Tee (Signature)"
   },
   "FW-NON-CR-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Neon Osaka Nightrunner — Crop Hoodie (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Neon Osaka Nightrunner \u2014 Crop Hoodie (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-NON-CR-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Neon Osaka Nightrunner — Crop Hoodie (Signature)"
+    "productName": "Neon Osaka Nightrunner \u2014 Crop Hoodie (Signature)"
   },
   "FW-NON-WO-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Neon Osaka Nightrunner — Women's Relaxed Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Neon Osaka Nightrunner \u2014 Women's Relaxed Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-NON-WO-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Neon Osaka Nightrunner — Women's Relaxed Tee (Signature)"
+    "productName": "Neon Osaka Nightrunner \u2014 Women's Relaxed Tee (Signature)"
   },
   "FW-RCP-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Retro Coupe — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Retro Coupe \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-RCP-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Retro Coupe — Tee (Signature)"
+    "productName": "Retro Coupe \u2014 Tee (Signature)"
   },
   "FW-AMU-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "American Muscle — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "American Muscle \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-AMU-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "American Muscle — Tee (Signature)"
+    "productName": "American Muscle \u2014 Tee (Signature)"
   },
   "FW-RRB-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Retro Roundback — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Retro Roundback \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-RRB-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Retro Roundback — Tee (Signature)"
+    "productName": "Retro Roundback \u2014 Tee (Signature)"
   },
   "FW-N4X-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Night Offroad 4x4 — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Night Offroad 4x4 \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-N4X-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Night Offroad 4x4 — Tee (Signature)"
+    "productName": "Night Offroad 4x4 \u2014 Tee (Signature)"
   },
   "FW-MSS-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "Midnight Sport Saloon — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "Midnight Sport Saloon \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-MSS-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "Midnight Sport Saloon — Tee (Signature)"
+    "productName": "Midnight Sport Saloon \u2014 Tee (Signature)"
   },
   "FW-W123-TE-STD": {
     "supplier": "customcat",
     "requiredIdField": "productId",
-    "productId": "TBD",
-    "productName": "W123 Heritage Eco — Tee (Standard)",
-    "shippingMethod": "Economy"
+    "productId": "1049",
+    "productName": "W123 Heritage Eco \u2014 Tee (Standard)",
+    "shippingMethod": "Economy",
+    "catalogProductId": 1049,
+    "blank": "Gildan G500",
+    "color": "Black",
+    "colorId": 9953,
+    "catalogSkusBySize": {
+      "S": "48144",
+      "M": "48145",
+      "L": "48146",
+      "XL": "48147",
+      "2XL": "48148",
+      "3XL": "48149",
+      "4XL": "48150",
+      "5XL": "48151"
+    }
   },
   "FW-W123-TE-SIG": {
     "supplier": "apliiq",
     "requiredIdField": "apliiqProductRef",
     "apliiqProductRef": "TBD",
-    "productName": "W123 Heritage Eco — Tee (Signature)"
+    "productName": "W123 Heritage Eco \u2014 Tee (Signature)"
   }
 }
