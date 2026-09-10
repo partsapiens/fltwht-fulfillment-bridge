@@ -71,3 +71,11 @@ See `.env.example`.
 ```
 
 The route returns CSV with CustomCat mapping columns, including empty mapped SKU cells where catalog mapping still needs to be filled.
+
+## Slug vs FW codes
+
+Storefront / Stripe metadata uses product **slugs** (e.g. `neon-street-racer`).
+Internal CustomCat rows in `data/sku-map.json` use **FW-*** codes (e.g. `FW-NSR-TE-STD`).
+
+`data/slug-aliases.json` maps slug → `{ standard, signature }` FW keys.
+`resolveSkuMapping` / `resolveCustomCatSku` accept either form. CustomCat `productId` values may still be `TBD` — keep `DRY_RUN` on until they are real.
