@@ -12,6 +12,24 @@ export function getConfig() {
   };
 }
 
+/** DRY_RUN defaults ON. Only off for 0/false/off. */
+export function isDryRun(options = {}) {
+  if (typeof options.dryRun === 'boolean') return options.dryRun;
+  const env = String(process.env.DRY_RUN ?? '1').toLowerCase();
+  return !(env === '0' || env === 'false' || env === 'off');
+}
+
+/**
+ * CustomCat sandbox flag for order payloads.
+ * Prefer sandbox when DRY_RUN is on or CUSTOMCAT_SANDBOX=1.
+ */
+export function isCustomCatSandbox(options = {}) {
+  if (typeof options.sandbox === 'boolean') return options.sandbox;
+  if (isDryRun(options)) return true;
+  const env = String(process.env.CUSTOMCAT_SANDBOX ?? '0').toLowerCase();
+  return env === '1' || env === 'true' || env === 'on';
+}
+
 export function getIntegrationStatus() {
   const cfg = getConfig();
   return {
