@@ -1,0 +1,18 @@
+{
+  "neon-street-racer": { "standard": "FW-NSR-TE-STD", "signature": "FW-NSR-TE-SIG" },
+  "umbrella-glow-girl": { "standard": "FW-UGG-TE-STD", "signature": "FW-UGG-TE-SIG" },
+  "turbo-legend": { "standard": "FW-TBL-TE-STD", "signature": "FW-TBL-TE-SIG" },
+  "drift-king": { "standard": "FW-DKG-TE-STD", "signature": "FW-DKG-TE-SIG" },
+  "street-beast": { "standard": "FW-STB-TE-STD", "signature": "FW-STB-TE-SIG" },
+  "midnight-roadster": { "standard": "FW-MRD-TE-STD", "signature": "FW-MRD-TE-SIG" },
+  "black-jdm-legend": { "standard": "FW-BJL-TE-STD", "signature": "FW-BJL-TE-SIG" },
+  "street-legend": { "standard": "FW-STL-TE-STD", "signature": "FW-STL-TE-SIG" },
+  "neon-voltage-coupe": { "standard": "FW-NVC-TE-STD", "signature": "FW-NVC-TE-SIG" },
+  "neon-osaka-nightrunner": { "standard": "FW-NON-CR-STD", "signature": "FW-NON-CR-SIG", "notes": "Site PDP is heavyweight tee; FW map uses crop-hoodie/women codes — reconcile before live routing." },
+  "retro-coupe": { "standard": "FW-RCP-TE-STD", "signature": "FW-RCP-TE-SIG" },
+  "american-muscle": { "standard": "FW-AMU-TE-STD", "signature": "FW-AMU-TE-SIG" },
+  "retro-roundback": { "standard": "FW-RRB-TE-STD", "signature": "FW-RRB-TE-SIG" },
+  "night-offroad-4x4": { "standard": "FW-N4X-TE-STD", "signature": "FW-N4X-TE-SIG" },
+  "midnight-sport-saloon": { "standard": "FW-MSS-TE-STD", "signature": "FW-MSS-TE-SIG", "notes": "IP review before eBay." },
+  "w123-heritage-eco": { "standard": "FW-W123-TE-STD", "signature": "FW-W123-TE-SIG" }
+}
