@@ -1,0 +1,51 @@
+# wrangler.toml — fltwht-bridge
+#
+# This file is documentation-grade config for the Cloudflare Worker at
+# worker/bridge.worker.js. Per repo rules, nothing has been deployed with it.
+#
+# To deploy for real later (operator action, not performed here):
+#   npx wrangler deploy
+# or use the Cloudflare dashboard click-path documented in worker/DEPLOY.md
+# (recommended for this repo — no local Wrangler/Node install required).
+
+name = "fltwht-bridge"
+main = "worker/bridge.worker.js"
+
+# Bump this to the actual current date before a real deploy, to pick up the
+# latest Workers runtime defaults. Left at a known-safe past date here since
+# nothing in this file is ever executed by this task.
+compatibility_date = "2024-09-23"
+
+# Cron trigger for the tracking-sync stub (GET /jobs/poll-tracking runs the
+# same logic on demand). Every 6 hours by default — adjust to taste once the
+# real CustomCat "list shipped orders" + notification-email flow is wired up.
+[triggers]
+crons = ["0 */6 * * *"]
+
+# ---------------------------------------------------------------------------
+# Non-secret vars — safe to keep in this file / commit to git.
+# ---------------------------------------------------------------------------
+[vars]
+DRY_RUN = "1"
+CUSTOMCAT_API_BASE = "https://customcat-beta.mylocker.net/api/v1"
+
+[[kv_namespaces]]
+binding = "ORDER_STATE"
+id = "ca9f39213f794d749fb32447b9dcc0e1"
+
+# ---------------------------------------------------------------------------
+# Secrets — NEVER put real values in this file. Set these via:
+#   npx wrangler secret put <NAME>
+# or Cloudflare Dashboard -> Workers & Pages -> fltwht-bridge -> Settings ->
+# Variables and Secrets -> Add (toggle "Encrypt").
+#
+# secrets: STRIPE_WEBHOOK_SECRET        (OPERATOR-ONLY — from the Stripe webhook endpoint)
+# secrets: CUSTOMCAT_API_KEY            (OPERATOR-ONLY — from CustomCat Settings > Store > API)
+# secrets: BRIDGE_ADMIN_TOKEN           (REQUIRED — protects operational HTTP routes such as /jobs/poll-tracking)
+# secrets: TRACKING_EMAIL_API_KEY       (OPERATOR-ONLY — optional, enables tracking emails via Resend)
+# secrets: APLIIQ_NOTIFY_EMAIL_API_KEY  (OPERATOR-ONLY — optional, unused until an Apliiq notify path exists)
+# secrets: APLIIQ_API_KEY               (OPERATOR-ONLY — optional until direct custom Apliiq dispatch is enabled)
+# vars:    TRACKING_EMAIL_FROM          (OPTIONAL — verified sender email for tracking emails)
+# vars:    TRACKING_EMAIL_REPLY_TO      (OPTIONAL — reply-to email for tracking emails)
+# vars:    APLIIQ_API_URL               (OPTIONAL — full endpoint URL for direct custom Apliiq dispatch)
+# ---------------------------------------------------------------------------
