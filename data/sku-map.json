@@ -32,8 +32,7 @@
   },
   "FW-NSR-TE-STD": {
     "supplier": "customcat",
-    "requiredIdField": "productId",
-    "productId": "1049",
+    "requiredIdField": "catalogSku",
     "productName": "Neon Street Racer \u2014 Tee (Standard)",
     "shippingMethod": "Economy",
     "catalogProductId": 1049,
@@ -51,7 +50,17 @@
       "5XL": "48151"
     },
     "designUrl": "https://fltwht.com/designs/neon-street-racer-print.png",
-    "designSource": "EXTRACTED_FROM_MOCKUP"
+    "designSource": "EXTRACTED_FROM_MOCKUP",
+    "catalogSkuBySize": {
+      "S": 48144,
+      "M": 48145,
+      "L": 48146,
+      "XL": 48147,
+      "2XL": 48148,
+      "3XL": 48149,
+      "4XL": 48150,
+      "5XL": 48151
+    }
   },
   "FW-NSR-TE-SIG": {
     "supplier": "apliiq",
@@ -61,8 +70,7 @@
   },
   "FW-UGG-TE-STD": {
     "supplier": "customcat",
-    "requiredIdField": "productId",
-    "productId": "1049",
+    "requiredIdField": "catalogSku",
     "productName": "Umbrella Glow Girl \u2014 Tee (Standard)",
     "shippingMethod": "Economy",
     "catalogProductId": 1049,
@@ -80,7 +88,17 @@
       "5XL": "48151"
     },
     "designUrl": "https://fltwht.com/designs/umbrella-glow-girl-print.png",
-    "designSource": "EXTRACTED_FROM_MOCKUP"
+    "designSource": "EXTRACTED_FROM_MOCKUP",
+    "catalogSkuBySize": {
+      "S": 48144,
+      "M": 48145,
+      "L": 48146,
+      "XL": 48147,
+      "2XL": 48148,
+      "3XL": 48149,
+      "4XL": 48150,
+      "5XL": 48151
+    }
   },
   "FW-UGG-TE-SIG": {
     "supplier": "apliiq",
@@ -90,8 +108,7 @@
   },
   "FW-TBL-TE-STD": {
     "supplier": "customcat",
-    "requiredIdField": "productId",
-    "productId": "1049",
+    "requiredIdField": "catalogSku",
     "productName": "Turbo Legend \u2014 Tee (Standard)",
     "shippingMethod": "Economy",
     "catalogProductId": 1049,
@@ -109,7 +126,17 @@
       "5XL": "48151"
     },
     "designUrl": "https://fltwht.com/designs/turbo-legend-print.png",
-    "designSource": "EXTRACTED_FROM_MOCKUP"
+    "designSource": "EXTRACTED_FROM_MOCKUP",
+    "catalogSkuBySize": {
+      "S": 48144,
+      "M": 48145,
+      "L": 48146,
+      "XL": 48147,
+      "2XL": 48148,
+      "3XL": 48149,
+      "4XL": 48150,
+      "5XL": 48151
+    }
   },
   "FW-TBL-TE-SIG": {
     "supplier": "apliiq",
@@ -119,8 +146,7 @@
   },
   "FW-DKG-TE-STD": {
     "supplier": "customcat",
-    "requiredIdField": "productId",
-    "productId": "1049",
+    "requiredIdField": "catalogSku",
     "productName": "Drift King \u2014 Tee (Standard)",
     "shippingMethod": "Economy",
     "catalogProductId": 1049,
@@ -138,7 +164,17 @@
       "5XL": "48151"
     },
     "designUrl": "https://fltwht.com/designs/drift-king-print.png",
-    "designSource": "EXTRACTED_FROM_MOCKUP"
+    "designSource": "EXTRACTED_FROM_MOCKUP",
+    "catalogSkuBySize": {
+      "S": 48144,
+      "M": 48145,
+      "L": 48146,
+      "XL": 48147,
+      "2XL": 48148,
+      "3XL": 48149,
+      "4XL": 48150,
+      "5XL": 48151
+    }
   },
   "FW-DKG-TE-SIG": {
     "supplier": "apliiq",
@@ -202,8 +238,7 @@
   },
   "FW-BJL-TE-STD": {
     "supplier": "customcat",
-    "requiredIdField": "productId",
-    "productId": "1049",
+    "requiredIdField": "catalogSku",
     "productName": "Black JDM Legend \u2014 Tee (Standard)",
     "shippingMethod": "Economy",
     "catalogProductId": 1049,
@@ -221,7 +256,17 @@
       "5XL": "48151"
     },
     "designUrl": "https://fltwht.com/designs/black-jdm-legend-print.png",
-    "designSource": "EXTRACTED_FROM_MOCKUP"
+    "designSource": "EXTRACTED_FROM_MOCKUP",
+    "catalogSkuBySize": {
+      "S": 48144,
+      "M": 48145,
+      "L": 48146,
+      "XL": 48147,
+      "2XL": 48148,
+      "3XL": 48149,
+      "4XL": 48150,
+      "5XL": 48151
+    }
   },
   "FW-BJL-TE-SIG": {
     "supplier": "apliiq",
