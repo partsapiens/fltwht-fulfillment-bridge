@@ -2,7 +2,7 @@ import http from 'node:http';
 import { handleStripeWebhook } from './routes/webhooks/stripe.js';
 import { runEbaySync } from './routes/jobs/ebay-sync.js';
 import { exportCustomCatCsv } from './routes/admin/export-customcat-csv.js';
-import { getConfig, getIntegrationStatus } from './lib/config.js';
+import { getConfig, getIntegrationStatus, isDryRun } from './lib/config.js';
 import { sendJson } from './lib/http.js';
 
 const config = getConfig();
@@ -13,6 +13,7 @@ const server = http.createServer(async (req, res) => {
       sendJson(res, 200, {
         ok: true,
         service: 'fltwht-fulfillment-bridge',
+        dryRun: isDryRun(),
         integrations: getIntegrationStatus(),
       });
       return;
