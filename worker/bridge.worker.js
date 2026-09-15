@@ -66,7 +66,7 @@ const SKU_MAP = {
   "FW-BJL-TE-SIG": { "supplier": "apliiq", "requiredIdField": "apliiqProductRef", "apliiqProductRef": "TBD", "productName": "Black JDM Legend — Tee (Signature)" },
   "FW-STL-TE-STD": { "supplier": "customcat", "requiredIdField": "productId", "productId": "TBD", "productName": "Street Legend — Tee (Standard)", "shippingMethod": "Economy" },
   "FW-STL-TE-SIG": { "supplier": "apliiq", "requiredIdField": "apliiqProductRef", "apliiqProductRef": "TBD", "productName": "Street Legend — Tee (Signature)" },
-  "FW-NVC-TE-STD": { "supplier": "customcat", "requiredIdField": "productId", "productId": "TBD", "productName": "Neon Voltage Coupe — Tee (Standard)", "shippingMethod": "Economy" },
+  "FW-NVC-TE-STD": { "supplier": "customcat", "requiredIdField": "catalogSku", "catalogProductId": 1049, "catalogSkuBySize": { "S": 48144, "M": 48145, "L": 48146, "XL": 48147, "2XL": 48148, "3XL": 48149, "4XL": 48150, "5XL": 48151 }, "productName": "Neon Voltage Coupe — Tee (Standard)", "shippingMethod": "Economy", "color": "Black", "designUrl": "https://fltwht.com/designs/neon-voltage-coupe-print.jpg", "designSource": "ELECTRIC_FUTURE_MAIN_UPSCALE" },
   "FW-NVC-TE-SIG": { "supplier": "apliiq", "requiredIdField": "apliiqProductRef", "apliiqProductRef": "TBD", "productName": "Neon Voltage Coupe — Tee (Signature)" },
   "FW-NON-CR-STD": { "supplier": "customcat", "requiredIdField": "productId", "productId": "TBD", "productName": "Neon Osaka Nightrunner — Crop Hoodie (Standard)", "shippingMethod": "Economy" },
   "FW-NON-CR-SIG": { "supplier": "apliiq", "requiredIdField": "apliiqProductRef", "apliiqProductRef": "TBD", "productName": "Neon Osaka Nightrunner — Crop Hoodie (Signature)" },

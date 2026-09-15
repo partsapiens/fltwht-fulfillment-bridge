@@ -295,8 +295,7 @@
   },
   "FW-NVC-TE-STD": {
     "supplier": "customcat",
-    "requiredIdField": "productId",
-    "productId": "1049",
+    "requiredIdField": "catalogSku",
     "productName": "Neon Voltage Coupe \u2014 Tee (Standard)",
     "shippingMethod": "Economy",
     "catalogProductId": 1049,
@@ -312,6 +311,18 @@
       "3XL": "48149",
       "4XL": "48150",
       "5XL": "48151"
+    },
+    "designUrl": "https://fltwht.com/designs/neon-voltage-coupe-print.jpg",
+    "designSource": "ELECTRIC_FUTURE_MAIN_UPSCALE",
+    "catalogSkuBySize": {
+      "S": 48144,
+      "M": 48145,
+      "L": 48146,
+      "XL": 48147,
+      "2XL": 48148,
+      "3XL": 48149,
+      "4XL": 48150,
+      "5XL": 48151
     }
   },
   "FW-NVC-TE-SIG": {
